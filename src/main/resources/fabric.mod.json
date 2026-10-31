@@ -1,0 +1,19 @@
+{
+  "schemaVersion":1,
+  "id":"cronicasdafronteira",
+  "version":"${version}",
+  "name":"Crônicas da Fronteira RPG",
+  "description":"Campanha, reputacao, dialogos interativos, retratos, contratos e criptas de RPG.",
+  "authors":["Crônicas da Fronteira"],
+  "environment":"*",
+  "entrypoints":{
+    "main":["br.com.cronicasdafronteira.CronicasMod"],
+    "client":["br.com.cronicasdafronteira.client.CronicasClient"]
+  },
+  "depends":{
+    "fabricloader":">=0.20.1",
+    "minecraft":"26.3",
+    "java":">=25",
+    "fabric-api":"*"
+  }
+}
