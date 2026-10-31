@@ -32,7 +32,7 @@ public final class Progress {
     }
     public static int nextXp(int level) { return 75 + 60 * level; }
     private static Path file(ServerPlayer player) {
-        return player.getServer().getWorldPath(LevelResource.ROOT).resolve("cronicasdafronteira")
+        return player.level().getServer().getWorldPath(LevelResource.ROOT).resolve("cronicasdafronteira")
             .resolve(player.getUUID().toString() + ".json");
     }
     public static State get(ServerPlayer player) {
